@@ -1,0 +1,17 @@
+.border, .image {
+    border-radius: 50%;
+}
+
+.border {
+    border: 5px solid var(--purple-100);
+    width: 210px;
+    height: 210px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    width: 195px;
+    height: 195px;
+}
