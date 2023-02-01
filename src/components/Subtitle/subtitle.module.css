@@ -1,0 +1,5 @@
+.h2 {
+    font-size: var(--size-md);
+    color: var(--grey-200);
+    font-weight: 400;
+}
