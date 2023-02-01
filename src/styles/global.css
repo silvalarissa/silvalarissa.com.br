@@ -4,9 +4,19 @@
   --purple-100: #7562E0;
   --purple-900: #000036;
   --grey-200: #8899A6;
+
+  --size-xlg: 2rem;
+  --size-lg: 1.75rem;
+  --size-md: 1.375rem;
+  --size-16: 1rem;
+  --size-sm: 0.875rem;
+  --size-xsm: 0.75rem;
+
+  --spacing-sm: 0.75rem;
+
 }
 
-html {
+html, body, #__next {
   width: 100vw;
   height: 100vh;
 }
@@ -18,8 +28,12 @@ html {
 }
 
 body {
-  width: 100%;
-  height: 100%;
   background: var(--purple-900);
   color: var(--white);
+}
+
+#__next {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
