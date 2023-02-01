@@ -1,21 +1,21 @@
 .list {
     list-style: none;
     display: flex;
-    gap: var(--size-xsm);
+    gap: var(--12);
 }
 
 .link {
     text-decoration: none;
     color: var(--white);
-    font-size: var(--size-16);
+    font-size: var(--16);
     padding: 12px 36px;
     border-radius: 50px;
     border: 1px solid var(--purple-100);
     background-image: linear-gradient(to right,
-                                      transparent,
-                                      transparent 50%,
-                                      var(--purple-100) 50%,
-                                      var(--purple-100));
+                                        transparent,
+                                        transparent 50%,
+                                        var(--purple-100) 50%,
+                                        var(--purple-100));
     background-position: 100% 0;
     background-size: 200% 100%;
     transition: all .25s ease-in;
