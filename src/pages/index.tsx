@@ -1,4 +1,8 @@
 import Head from "next/head";
+import { Wrapper } from "@/components/Wrapper";
+
+import { Navigation } from "@/components/Navigation";
+import { Header } from "@/components/Header";
 
 export default function Home() {
   return (
@@ -9,7 +13,11 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.svg" />
       </Head>
-      <p>Whereas recognition of the inherent dignity</p>
+
+      <Wrapper>
+        <Header />
+        <Navigation />
+      </Wrapper>
     </>
   );
 }
