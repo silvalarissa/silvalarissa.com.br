@@ -1,4 +1,4 @@
-import Link from "next/link";
+import { Button } from "../Button";
 import styled from "./navigation.module.css";
 
 export const Navigation = () => {
@@ -6,24 +6,16 @@ export const Navigation = () => {
     <nav>
       <ul className={styled.list}>
         <li>
-          <Link className={styled.link} href="#">
-            Início
-          </Link>
+          <Button href="/">Início</Button>
         </li>
         <li>
-          <Link className={styled.link} href="#">
-            Blog
-          </Link>
+          <Button href="/">Blog</Button>
         </li>
         <li>
-          <Link className={styled.link} href="#">
-            Sobre Mim
-          </Link>
+          <Button href="/">Sobre Mim</Button>
         </li>
         <li>
-          <Link className={styled.link} href="#">
-            Projetos
-          </Link>
+          <Button href="/">Projetos</Button>
         </li>
       </ul>
     </nav>
