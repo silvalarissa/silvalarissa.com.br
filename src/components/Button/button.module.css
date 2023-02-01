@@ -1,0 +1,29 @@
+.primary, .secondary {
+    text-decoration: none;
+    color: var(--white);
+    font-size: var(--16);
+    padding: 12px 36px;
+    border-radius: 50px;
+    border: 1px solid var(--purple-100);
+    transition: all .25s ease-in-out;
+} 
+
+.primary {
+    background-color: var(--purple-100);
+    transition: all .25s ease-in-out;
+}
+
+.primary:hover {
+    background-color: transparent;
+    color: var(--purple-100);
+}
+
+.secondary {
+    background-color: transparent;
+    transition: all .25s ease-in-out;
+}
+
+.secondary:hover {
+    border: 1px solid var(--purple-200);
+    color: var(--purple-100);
+}
