@@ -1,0 +1,15 @@
+.listSocial {
+    list-style: none;
+    display: flex;
+    gap: var(--12);
+    margin-top: var(--32);
+}
+
+.listSocialIcon {
+    color: var(--grey-200);
+    transition: 0.5s all;
+}
+
+.listSocialIcon:hover {
+    color: var(--white);
+}

@@ -3,6 +3,7 @@ import { Wrapper } from "@/components/Wrapper";
 
 import { Navigation } from "@/components/Navigation";
 import { Header } from "@/components/Header";
+import { Social } from "@/components/Social";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <Wrapper>
         <Header />
         <Navigation />
+        <Social />
       </Wrapper>
     </>
   );
