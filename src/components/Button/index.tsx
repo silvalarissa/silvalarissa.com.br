@@ -6,11 +6,15 @@ interface ButtonProps extends LinkProps {
   variant?: "primary" | "secondary";
 }
 
-export const Button = ({ children, variant = "primary" }: ButtonProps) => {
+export const Button = ({
+  children,
+  variant = "primary",
+  ...rest
+}: ButtonProps) => {
   return (
     <Link
       className={variant === "primary" ? styled.primary : styled.secondary}
-      href="#"
+      {...rest}
     >
       {children}
     </Link>
